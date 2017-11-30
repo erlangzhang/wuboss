@@ -1,0 +1,19 @@
+FROM golang:latest
+
+RUN cd /go/src && mkdir work-codes && cd work-codes
+
+RUN go get github.com/Masterminds/glide
+
+RUN go get github.com/beego/bee 
+
+RUN git clone https://code.aliyun.com/wukc/wushu.git && cd wushu/app
+
+WORKDIR /go/src/work-codes/wushu/app
+
+RUN glide install 
+
+RUN go build
+
+EXPOSE 8080
+
+CMD ["bee", "run"]

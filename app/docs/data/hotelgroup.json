@@ -1,0 +1,34 @@
+{ 
+    "_id" : ObjectId("58f5eb57de2e170025ea03fe"), 
+    "updatedAt" : ISODate("2017-07-18T06:22:55.292+0000"), 
+    "createdAt" : ISODate("2017-04-18T10:32:55.388+0000"), 
+    "status" : NumberInt(1), 
+    "hotelIds" : [
+        "58f6deaed797900022431cd6", 
+        "58f5e8fdde2e170025ea03fd"
+    ], 
+    "name" : "深圳区", 
+    "__v" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("5909357c18741b00238d8136"), 
+    "updatedAt" : ISODate("2017-07-18T06:24:11.102+0000"), 
+    "createdAt" : ISODate("2017-05-03T01:42:20.465+0000"), 
+    "status" : NumberInt(1), 
+    "hotelIds" : [
+        "59083d493930e50016ccfc16"
+    ], 
+    "name" : "分组1", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("591ba87536fb2000227e8df5"), 
+    "updatedAt" : ISODate("2017-07-18T06:24:11.102+0000"), 
+    "createdAt" : ISODate("2017-05-17T01:33:41.517+0000"), 
+    "status" : NumberInt(1), 
+    "hotelIds" : [
+        "59311bf9db8a1a0021757918"
+    ], 
+    "name" : "ttt", 
+    "__v" : NumberInt(1)
+}

@@ -1,0 +1,230 @@
+.side-nav {
+  margin-bottom: 40px;
+  min-height: 100%;
+  background-color: #fff !important;
+  border-right: 1px solid #e9e9e9;
+}
+.side-nav .side-nav-item {
+  background-color: #fff !important;
+}
+.side-nav-item > a {
+  text-decoration: none;
+  color: #48576a;
+}
+.iconfont-1 {
+  margin-right: 10px;
+}
+.iconfont-button {
+  margin-right: 5px;
+}
+.batch-iconfont-button {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.breadcrumb {
+  margin-top: 20px;
+}
+.breadcrumb-header {
+  height: 8px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.layout-container {
+  margin: 20px;
+}
+.content-header {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.table-container {
+  margin-top: 20px;
+}
+.table-pagination {
+  margin-top: 10px;
+  float: right;
+}
+.table-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.breadcrumb-icon {
+  line-height: 1px;
+}
+.operator-bar {
+  margin-top: 20px;
+}
+.delete-btn {
+  background: #e7505a;
+  color: #fff;
+  border-color: #e7505a;
+  padding: 5px 15px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.status-btn-unactived {
+  background: #7090c8;
+  color: #fff;
+  border-color: #7090c8;
+  padding: 5px 10px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.status-btn-actived {
+  background: #0f87dd;
+  color: #fff;
+  border-color: #0f87dd;
+  padding: 5px 10px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.create-btn {
+  background: #b816d4;
+  color: #fff;
+  border-color: #b816d4;
+  padding: 5px 15px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.create-btn:hover {
+  background: #841996;
+  color: #fff;
+  border-color: #841996;
+  padding: 5px 15px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.refresh-btn {
+  background: #337ab7;
+  color: #fff;
+  border-color: #337ab7;
+  padding: 5px 15px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.refresh-btn:hover {
+  background: #125188;
+  color: #fff;
+  border-color: #125188;
+}
+.batch-btn {
+  background: #c49f47;
+  color: #fff;
+  border-color: #fd9927;
+  padding: 5px 15px 5px 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.delete-btn {
+  color: #fff;
+  background-color: #e7505a;
+  border-color: #e7505a;
+  margin-left: 5px;
+  padding: 5px 10px 5px 5px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif !important;
+}
+.delete-btn:hover {
+  background: #b73948;
+  color: #fff;
+  border-color: solid 1px #b73948;
+}
+.edit-btn {
+  color: #fff;
+  background-color: #fd9927;
+  border-color: #fd9927;
+  margin-left: 5px;
+  padding: 5px 10px 5px 5px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif !important;
+}
+.edit-btn:hover {
+  background: #da7c0c;
+  color: #fff;
+  border-color: solid 1px #da7c0c;
+}
+.retrieve-btn {
+  color: #fff;
+  background-color: #3598dc;
+  border-color: #3598dc;
+  margin-left: 5px;
+  padding: 5px 10px 5px 5px;
+}
+.retrieve-btn:hover {
+  background: #0290f5;
+  color: #fff;
+  border-color: solid 1px #0f87dd;
+}
+.sync-btn {
+  color: #fff;
+  background-color: #55B732;
+  border-color: #55B732;
+  margin-left: 5px;
+  padding: 5px 10px 5px 5px;
+}
+.sync-btn:hover {
+  background: #48a028;
+  color: #fff;
+  border-color: solid 1px #48a028;
+}
+.status-btn-actived {
+  color: #fff;
+  background-color: #108ee9;
+  border-color: #108ee9;
+  margin-left: 5px;
+  padding: 5px 10px 5px 5px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif !important;
+}
+.status-btn-actived:hover {
+  background: #0f87dd;
+  color: #fff;
+  border-color: solid 1px #0f87dd;
+}
+.status-btn-unactived {
+  color: #fff;
+  background-color: #7090c8;
+  border-color: #7090c8;
+  margin-left: 5px;
+  padding: 5px 10px 5px 5px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif !important;
+}
+.status-btn-unactived:hover {
+  background: #617eb1;
+  color: #fff;
+  border-color: solid 1px #617eb1;
+}
+.disabled-btn {
+  color: #fff;
+  background-color: #bcbcbc;
+  border-color: #bcbcbc;
+  padding: 5px 10px 5px 5px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif !important;
+}
+.delete-btn-dialog-icon {
+  color: #ffbf00;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.select-row {
+  padding: 5px 15px 7px 5px !important;
+}
+.select-row-dropdown {
+  float: right;
+  margin-top: -14px;
+  margin-bottom: 10px;
+}
+.table-column-hidden {
+  display: none;
+}
+.table-title {
+  font-size: 13px;
+}
+.search-input {
+  width: 180px;
+  float: right;
+  margin-top: -14px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.batch-select-span {
+  margin-left: 20px;
+}

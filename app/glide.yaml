@@ -1,0 +1,15 @@
+package: work-codes/wushu/app
+import:
+- package: github.com/astaxie/beego
+  version: v1.8.3
+- package: github.com/robfig/cron
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/dchest/captcha
+- package: github.com/goless/config
+- package: github.com/garyburd/redigo
+  version: v1.1.0
+- package: github.com/smartystreets/goconvey
+  version: ~1.6.2
