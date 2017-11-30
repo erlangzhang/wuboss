@@ -1,0 +1,92 @@
+{ 
+    "_id" : ObjectId("58fec94e5437af23002f6e8c"), 
+    "account" : "ztime@qq.com", 
+    "name" : "ztime", 
+    "department" : "技术部", 
+    "telephone" : "13267054078", 
+    "status" : NumberInt(1), 
+    "lastLoginTime" : NumberInt(1500880744), 
+    "lastLoginIP" : "119.137.35.182", 
+    "roles" : [
+        {
+            "id" : "58f739d7adf2b1230030a290", 
+            "name" : "admin"
+        }
+    ], 
+    "hotelGroups" : [
+        {
+            "id" : "5909357c18741b00238d8136", 
+            "name" : "分组1"
+        }, 
+        {
+            "id" : "58f5eb57de2e170025ea03fe", 
+            "name" : "深圳区"
+        }
+    ], 
+    "createdAt" : NumberInt(1493092686), 
+    "updatedAt" : NumberInt(1500880744)
+}
+{ 
+    "_id" : ObjectId("58fda3295437af23002f6e8b"), 
+    "account" : "test@qq.com", 
+    "name" : "test", 
+    "department" : "test", 
+    "telephone" : "12345678900", 
+    "status" : NumberInt(1), 
+    "lastLoginTime" : NumberInt(1500625363), 
+    "lastLoginIP" : "183.16.193.146", 
+    "roles" : [
+        {
+            "id" : "595c5ae1464f9c21002c7d01", 
+            "name" : "test"
+        }
+    ], 
+    "hotelGroups" : [
+        {
+            "id" : "58f5eb57de2e170025ea03fe", 
+            "name" : "深圳区"
+        }
+    ], 
+    "createdAt" : NumberInt(1493017385), 
+    "updatedAt" : NumberInt(1500625363)
+}
+{ 
+    "_id" : ObjectId("58f73a11adf2b1230030a291"), 
+    "account" : "1006817093@qq.com", 
+    "name" : "Zz", 
+    "department" : "研发部门", 
+    "telephone" : "13760471842", 
+    "status" : NumberInt(1), 
+    "lastLoginTime" : NumberInt(1496220387), 
+    "lastLoginIP" : "183.16.192.107", 
+    "roles" : [
+        {
+            "id" : "58f739d7adf2b1230030a290", 
+            "name" : "admin"
+        }
+    ], 
+    "hotelGroups" : [
+        {
+            "id" : "58f5eb57de2e170025ea03fe", 
+            "name" : "深圳区"
+        }
+    ], 
+    "createdAt" : NumberInt(1492597265), 
+    "updatedAt" : NumberInt(1496220387)
+}
+{ 
+    "_id" : ObjectId("58edef3c1cd4bec8aa8eddd5"), 
+    "account" : "13410813600", 
+    "name" : "sxt", 
+    "status" : NumberInt(1), 
+    "lastLoginTime" : NumberInt(1500883079), 
+    "lastLoginIP" : "119.137.35.182", 
+    "roles" : [
+
+    ], 
+    "hotelGroups" : [
+
+    ], 
+    "createdAt" : NumberInt(1492597265), 
+    "updatedAt" : NumberInt(1496220387)
+}
